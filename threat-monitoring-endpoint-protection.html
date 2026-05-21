@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Threat Monitoring & Endpoint Protection</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container" style="padding: 4rem 0;">
+    <header class="service-hero">
+      <div class="hero-copy">
+        <h1>Threat Monitoring &amp; Endpoint Protection</h1>
+        <p class="lead">Protect endpoints with continuous monitoring, detection, and automated response.</p>
+      </div>
+      <figure class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Threat monitoring illustration">
+          <defs>
+            <linearGradient id="monitorBlue" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#4f46e5"/>
+              <stop offset="100%" stop-color="#6366f1"/>
+            </linearGradient>
+          </defs>
+          <circle class="visual-bg" cx="160" cy="190" r="110" fill="#6366f1" opacity="0.18"/>
+          <circle class="visual-bg" cx="380" cy="120" r="80" fill="url(#monitorBlue)"/>
+          <g class="visual-icon visual-bounce">
+            <rect x="210" y="140" width="120" height="96" rx="18" fill="#ffffff" opacity="0.18"/>
+            <rect x="230" y="165" width="80" height="40" rx="10" fill="#ffffff" opacity="0.95"/>
+            <polyline class="visual-line" points="232,190 250,175 270,195 290,170 308,185" fill="none" stroke="#10b981" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M218 236h126" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+          </g>
+          <path class="visual-line visual-spin" d="M115 245 C205 175 315 175 405 245"/>
+          <circle class="visual-dot" cx="100" cy="90" r="12"/>
+          <circle class="visual-spark" cx="430" cy="88" r="8"/>
+          <circle class="visual-spark" cx="128" cy="250" r="8"/>
+        </svg>
+      </figure>
+    </header>
+
+    <section class="section">
+      <div class="diagram">
+        <h2>Endpoint Protection Layers</h2>
+        <div class="diagram-row service-diagram">
+          <div class="diagram-node node" style="--delay:0s;">AV & EPP<br><small>Blocking threats</small></div>
+          <div class="diagram-node node" style="--delay:0.12s;">EDR<br><small>Detection & response</small></div>
+          <div class="diagram-node node" style="--delay:0.24s;">Patching<br><small>Vulnerability fixes</small></div>
+          <div class="diagram-node node" style="--delay:0.36s;">Telemetry<br><small>Central logs</small></div>
+          <div class="diagram-node node" style="--delay:0.48s;">Automation<br><small>Playbook-driven response</small></div>
+        </div>
+      </div>
+    </section>
+
+    <p><a class="btn btn-secondary" href="index.html">Back to Home</a></p>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
+  </main>
+  <script src="counter.js"></script>
+</body>
+</html>

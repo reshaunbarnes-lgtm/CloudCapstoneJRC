@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Identity Security</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container" style="padding: 4rem 0;">
+    <header class="service-hero">
+      <div class="hero-copy">
+        <h1>Identity Security</h1>
+        <p class="lead">Protect identities with strong authentication, least privilege, and continuous monitoring.</p>
+      </div>
+      <figure class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Identity security illustration">
+          <defs>
+            <linearGradient id="idGreen" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#34d399"/>
+              <stop offset="100%" stop-color="#10b981"/>
+            </linearGradient>
+          </defs>
+          <circle class="visual-bg" cx="150" cy="190" r="100" fill="#22c55e" opacity="0.2"/>
+          <circle class="visual-bg" cx="390" cy="125" r="80" fill="url(#idGreen)" opacity="0.18"/>
+          <g class="visual-icon visual-bounce">
+            <circle cx="240" cy="170" r="30" fill="#ffffff" opacity="0.9"/>
+            <path d="M215 210 C215 190 265 190 265 210 C265 230 215 230 215 210 Z" fill="#ffffff" opacity="0.9"/>
+            <circle cx="325" cy="145" r="20" fill="#ffffff" opacity="0.9"/>
+            <path d="M303 168 L337 168" stroke="#ffffff" stroke-width="10" stroke-linecap="round"/>
+            <rect x="290" y="195" width="56" height="50" rx="20" fill="#ffffff" opacity="0.18"/>
+            <path d="M303 215 V225" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+            <path d="M326 225 A8 8 0 0 1 342 225" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+          </g>
+          <circle class="visual-dot" cx="100" cy="90" r="12"/>
+          <circle class="visual-spark" cx="430" cy="95" r="8"/>
+          <circle class="visual-spark" cx="440" cy="220" r="6"/>
+        </svg>
+      </figure>
+    </header>
+
+    <section class="section">
+      <div class="diagram">
+        <h2>Identity Services</h2>
+        <div class="diagram-row service-diagram">
+          <div class="diagram-node node" style="--delay:0s;">MFA<br><small>Multi-factor auth</small></div>
+          <div class="diagram-node node" style="--delay:0.12s;">SSO<br><small>Single sign-on</small></div>
+          <div class="diagram-node node" style="--delay:0.24s;">Provisioning<br><small>Automated lifecycle</small></div>
+          <div class="diagram-node node" style="--delay:0.36s;">Privileged Access<br><small>Just-in-time</small></div>
+          <div class="diagram-node node" style="--delay:0.48s;">Monitoring<br><small>Access logs</small></div>
+        </div>
+      </div>
+    </section>
+
+    <p><a class="btn btn-secondary" href="index.html">Back to Home</a></p>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
+  </main>
+  <script src="counter.js"></script>
+</body>
+</html>

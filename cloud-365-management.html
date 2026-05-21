@@ -8,7 +8,36 @@
 </head>
 <body>
   <main class="container" style="padding: 4rem 0;">
-    <h1>Cloud &amp; 365 Management</h1>
+    <header class="service-hero">
+      <div class="hero-copy">
+        <h1>Cloud &amp; 365 Management</h1>
+        <p class="lead">Managed Microsoft 365 and cloud operations to keep your business productive and secure.</p>
+      </div>
+      <figure class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cloud and Microsoft 365 illustration">
+          <defs>
+            <linearGradient id="cloudBlue" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#7dd3fc"/>
+              <stop offset="100%" stop-color="#38bdf8"/>
+            </linearGradient>
+          </defs>
+          <circle class="visual-bg" cx="160" cy="190" r="110" fill="url(#cloudBlue)"/>
+          <circle class="visual-bg" cx="380" cy="120" r="85" fill="#f59e0b"/>
+          <g class="visual-icon visual-bounce">
+            <ellipse cx="245" cy="160" rx="95" ry="58" fill="#ffffff" opacity="0.16"/>
+            <ellipse cx="235" cy="150" rx="55" ry="38" fill="#ffffff" opacity="0.92"/>
+            <rect x="240" y="184" width="24" height="18" rx="6" fill="#38bdf8"/>
+            <rect x="272" y="184" width="24" height="18" rx="6" fill="#facc15"/>
+            <rect x="304" y="184" width="24" height="18" rx="6" fill="#ec4899"/>
+            <path class="visual-line" d="M130 240 C190 180 310 180 370 240"/>
+          </g>
+          <circle class="visual-spark" cx="418" cy="98" r="8"/>
+          <circle class="visual-spark" cx="108" cy="84" r="10"/>
+          <circle class="visual-dot" cx="430" cy="255" r="12"/>
+        </svg>
+      </figure>
+    </header>
+
     <p>Cloud management is the process of overseeing and optimizing your cloud infrastructure, applications, and services so your team can focus on business goals instead of routine IT tasks.</p>
     <h2>How it helps business operations</h2>
     <ul>
@@ -42,7 +71,9 @@
       </div>
       <p>This diagram shows how cloud management connects end users to cloud platforms through managed operations, making business systems faster, safer, and more adaptable.</p>
     </div>
-    <p><a href="index.html">Back to Home</a></p>
+    <p><a class="btn btn-secondary" href="index.html">Back to Home</a></p>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
   </main>
+  <script src="counter.js"></script>
 </body>
 </html>

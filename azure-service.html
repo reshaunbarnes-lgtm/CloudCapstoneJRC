@@ -7,10 +7,59 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="container" style="padding: 4rem 0;">
-    <h1>Azure Service</h1>
-    <p>This page is intentionally left blank for future details.</p>
-    <p><a href="index.html">Back to Home</a></p>
+  <main class="container azure-page" style="padding: 4rem 0;">
+    <header class="service-hero">
+      <div class="hero-copy">
+        <h1>Azure Services</h1>
+        <p class="lead">Cloud platform and services from Microsoft to build, deploy, and manage applications at scale.</p>
+      </div>
+      <figure class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Decorative Azure illustration">
+          <defs>
+            <linearGradient id="azureBlue" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#60a5fa"/>
+              <stop offset="100%" stop-color="#38bdf8"/>
+            </linearGradient>
+            <linearGradient id="azurePurple" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#c084fc"/>
+              <stop offset="100%" stop-color="#a855f7"/>
+            </linearGradient>
+          </defs>
+          <circle class="visual-bg" cx="150" cy="190" r="110" fill="url(#azureBlue)"/>
+          <circle class="visual-bg" cx="380" cy="120" r="80" fill="url(#azurePurple)"/>
+          <g class="visual-icon visual-bounce">
+            <rect x="210" y="125" width="100" height="90" rx="20" fill="#ffffff" opacity="0.16"/>
+            <rect x="220" y="140" width="80" height="16" rx="8" fill="#ffffff" opacity="0.9"/>
+            <rect x="220" y="168" width="60" height="10" rx="6" fill="#ffffff" opacity="0.72"/>
+            <rect x="220" y="188" width="80" height="10" rx="6" fill="#ffffff" opacity="0.72"/>
+            <path d="M235 118c0-12 9-21 21-21h48c12 0 21 9 21 21v8h-90v-8z" fill="#ffffff" opacity="0.22"/>
+          </g>
+          <circle class="visual-spark" cx="430" cy="76" r="10"/>
+          <circle class="visual-spark" cx="110" cy="72" r="8"/>
+          <circle class="visual-spark" cx="440" cy="218" r="6"/>
+          <circle class="visual-dot" cx="90" cy="250" r="12"/>
+        </svg>
+      </figure>
+    </header>
+
+    <section class="section">
+      <div class="diagram">
+        <h2>What we provide</h2>
+        <div class="diagram-row service-diagram">
+          <div class="diagram-node node" style="--delay:0s;">Compute<br><small>VMs, App Services, AKS</small></div>
+          <div class="diagram-node node" style="--delay:0.12s;">Storage<br><small>Blob, Files, Disks</small></div>
+          <div class="diagram-node node" style="--delay:0.24s;">Networking<br><small>VNet, Load Balancers</small></div>
+          <div class="diagram-node node" style="--delay:0.36s;">Security<br><small>Azure AD, Policies</small></div>
+          <div class="diagram-node node" style="--delay:0.48s;">Monitoring<br><small>Log Analytics</small></div>
+        </div>
+      </div>
+      <p>We help you design secure, cost-effective cloud architectures, migrate workloads, and operate cloud platforms with monitoring and automation.</p>
+    </section>
+
+    <p><a class="btn btn-secondary" href="index.html">Back to Home</a></p>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
   </main>
+  <script src="counter.js"></script>
 </body>
 </html>

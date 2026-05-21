@@ -8,9 +8,49 @@
 </head>
 <body>
   <main class="container" style="padding: 4rem 0;">
-    <h1>Security Operations</h1>
-    <p>This page is intentionally left blank for future details.</p>
-    <p><a href="index.html">Back to Home</a></p>
+    <header class="service-hero">
+      <div class="hero-copy">
+        <h1>Security Operations</h1>
+        <p class="lead">24/7 threat monitoring, detection, and response to keep your systems secure.</p>
+      </div>
+      <figure class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Security operations illustration">
+          <defs>
+            <radialGradient id="shieldGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#34d399"/>
+              <stop offset="100%" stop-color="#10b981" stop-opacity="0.2"/>
+            </radialGradient>
+          </defs>
+          <circle class="visual-bg" cx="260" cy="170" r="120" fill="url(#shieldGlow)"/>
+          <g class="visual-icon visual-bounce">
+            <path d="M260 100 L210 140 V190 C210 230 245 255 260 265 C275 255 310 230 310 190 V140 Z" fill="#ffffff" opacity="0.18"/>
+            <path d="M235 132 L285 132 L285 170 L235 170 Z" fill="#ffffff" opacity="0.92"/>
+            <path d="M250 158 L265 176 L295 146" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round"/>
+          </g>
+          <circle class="visual-dot" cx="100" cy="90" r="12"/>
+          <circle class="visual-spark" cx="420" cy="88" r="8"/>
+          <circle class="visual-spark" cx="128" cy="250" r="8"/>
+          <circle class="visual-dot" cx="420" cy="240" r="10"/>
+        </svg>
+      </figure>
+    </header>
+
+    <section class="section">
+      <div class="diagram">
+        <h2>Security Operations Overview</h2>
+        <div class="diagram-row service-diagram">
+          <div class="diagram-node node" style="--delay:0s;">Monitoring<br><small>SIEM & alerts</small></div>
+          <div class="diagram-node node" style="--delay:0.12s;">Detection<br><small>Threat intel</small></div>
+          <div class="diagram-node node" style="--delay:0.24s;">Response<br><small>Incident handling</small></div>
+          <div class="diagram-node node" style="--delay:0.36s;">Hunting<br><small>Proactive checks</small></div>
+          <div class="diagram-node node" style="--delay:0.48s;">Reporting<br><small>Compliance & logs</small></div>
+        </div>
+      </div>
+    </section>
+
+    <p><a class="btn btn-secondary" href="index.html">Back to Home</a></p>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
   </main>
+  <script src="counter.js"></script>
 </body>
 </html>

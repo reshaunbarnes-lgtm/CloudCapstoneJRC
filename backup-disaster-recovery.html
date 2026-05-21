@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Backup & Disaster Recovery</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="container" style="padding: 4rem 0;">
+    <header class="service-hero">
+      <div class="hero-copy">
+        <h1>Backup &amp; Disaster Recovery</h1>
+        <p class="lead">Protect data and recover quickly with layered backups and tested recovery plans.</p>
+      </div>
+      <figure class="hero-visual" aria-hidden="true">
+        <svg viewBox="0 0 520 340" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Backup and disaster recovery illustration">
+          <defs>
+            <linearGradient id="backupSky" x1="0" x2="1" y1="0" y2="1">
+              <stop offset="0%" stop-color="#38bdf8"/>
+              <stop offset="100%" stop-color="#0ea5e9"/>
+            </linearGradient>
+          </defs>
+          <circle class="visual-bg" cx="150" cy="190" r="110" fill="url(#backupSky)"/>
+          <circle class="visual-bg" cx="385" cy="125" r="80" fill="#a855f7" opacity="0.25"/>
+          <g class="visual-icon visual-bounce">
+            <rect x="230" y="135" width="90" height="90" rx="28" fill="#ffffff" opacity="0.18"/>
+            <rect x="245" y="150" width="60" height="14" rx="7" fill="#ffffff" opacity="0.95"/>
+            <rect x="245" y="175" width="60" height="14" rx="7" fill="#ffffff" opacity="0.75"/>
+            <circle cx="280" cy="230" r="22" fill="#ffffff" opacity="0.22"/>
+            <path d="M250 190 C260 225 300 220 310 190" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+          </g>
+          <path class="visual-line visual-spin" d="M130 240 C180 180 340 180 390 240"/>
+          <circle class="visual-spark" cx="110" cy="84" r="8"/>
+          <circle class="visual-dot" cx="430" cy="88" r="12"/>
+        </svg>
+      </figure>
+    </header>
+
+    <section class="section">
+      <div class="diagram">
+        <h2>Recovery Components</h2>
+        <div class="diagram-row service-diagram">
+          <div class="diagram-node node" style="--delay:0s;">Backups<br><small>Automated snapshots</small></div>
+          <div class="diagram-node node" style="--delay:0.12s;">Replication<br><small>Geo redundant</small></div>
+          <div class="diagram-node node" style="--delay:0.24s;">Runbooks<br><small>Playbooks & automation</small></div>
+          <div class="diagram-node node" style="--delay:0.36s;">Testing<br><small>Failover drills</small></div>
+          <div class="diagram-node node" style="--delay:0.48s;">Recovery<br><small>RTO & RPO planning</small></div>
+        </div>
+      </div>
+    </section>
+
+    <p><a class="btn btn-secondary" href="index.html">Back to Home</a></p>
+    <div id="visitor-counter" class="visitor-counter">Loading visitors...</div>
+  </main>
+  <script src="counter.js"></script>
+</body>
+</html>
